@@ -37,5 +37,9 @@ client.on("message", (channel, tags, message, self) => {
     if (message == 'naber') {
         client.say(channel, "iyi sen");
     }
-
+    
+    if (message == 'nb
+        r') {
+        client.say(channel, "iyi sen");
+    }
 });
